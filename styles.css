@@ -16,8 +16,11 @@
     display:flex;
     justify-content: center;
     align-items : center;
+    overflow: hidden;
     position: relative;
 }
+
+
 
 .card{
     width: 400px;
@@ -26,6 +29,7 @@
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
+    position: relative;
 }
 
 .containerheader {
@@ -99,6 +103,20 @@
     font-size: .7rem;
     letter-spacing: 2px;
     color: darkgrey;
+}
+
+.bgcircles .circle1 , .bgcircles .circle2 {
+    position: absolute;
+}
+
+.circle1{
+ top: -300px;
+ left:-175px;
+}
+
+.circle2{
+    bottom: -300;
+    right:-175px;
 }
 
 
