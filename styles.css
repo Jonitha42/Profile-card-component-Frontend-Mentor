@@ -3,8 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
+}
 
+:root{
+    font-size:18px;
 }
 
 
@@ -18,7 +20,8 @@
 }
 
 .card{
-    width: 350px;
+    width: 400px;
+    height: 450px;
     background-color:white;
     border-radius: 20px;
     overflow: hidden;
@@ -32,11 +35,12 @@
 }
 
 .containerbody{
-    padding: 0 20px 30px;
+    padding: 0 20px 25px;
 }
 
 .profile-image{
-    width: 100px; height: 100px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 5px solid white;
     overflow: hidden;
@@ -47,31 +51,55 @@
     width: 100%;
     height: auto;
     display: block;
-
 }
 
 
 .name{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .age{
     margin-left: 5px;
     color: darkgrey;
-    
+    font-weight: bold;
 }
 
 .city{ 
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color : darkgrey;
+    font-size: 18px;
+
 }
 
 
 .cardfooter{
-
-    border-top: 1px solid darkgrey;
+    border-top: 2px solid darkgrey;
     display: flex;
-
-
 }
+
+.cardfooter .datos{
+    flex: 1;
+    height:130px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardfooter .datos .black{
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    
+}
+
+.cardfooter .datos .sub{
+    font-size: .7rem;
+    letter-spacing: 2px;
+    color: darkgrey;
+}
+
+
+
