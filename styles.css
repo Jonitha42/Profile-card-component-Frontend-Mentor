@@ -2,9 +2,76 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+
 }
 
 
-body{
+.bg{
     background-color: darkcyan;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items : center;
+    position: relative;
+}
+
+.card{
+    width: 350px;
+    background-color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.containerheader {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-size: cover;
+    height:150px;
+}
+
+.containerbody{
+    padding: 0 20px 30px;
+}
+
+.profile-image{
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+}
+
+.profile-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+
+.name{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.age{
+    margin-left: 5px;
+    color: darkgrey;
+    
+}
+
+.city{ 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.cardfooter{
+
+    border-top: 1px solid darkgrey;
+    display: flex;
+
+
 }
